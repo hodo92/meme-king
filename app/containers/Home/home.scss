@@ -28,18 +28,20 @@
 
 }
 
-@media only screen and (max-width: 650px) {
  .home {
-  background: $mainColor;
-  color: white;
-
-  .box-avatar {
+     @media only screen and (max-width: 650px) {
+     background: $mainColor;
+     color: white;
+     }
+.box-avatar {
+      @media only screen and (max-width: 650px) {
     margin-top: 8%;
-  }
-
-  .personal-messages-links {
+     }
+     }
+.personal-messages-links {
+      @media only screen and (max-width: 650px) {
     margin-top: 80px;
   }
+}
 
 }
-    }
